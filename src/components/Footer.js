@@ -11,14 +11,18 @@ export const Footer = () => {
         <Row className="align-items-center">
           
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+             <div style={{ fontWeight: 'bold', fontSize: '24px', lineHeight: '1.2',color:"white" }}>
+  <span style={{fontSize:"30px"}}>Rishi</span>
+  <br />
+  <span style={{fontSize:"20px",marginTop:"px"}}>portfolio</span>
+</div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/utkarsh-singh-parihar-050219249/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.instagram.com/utkarsh.014" target="_blank"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/rishi-kumar-singh-99abab190/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.instagram.com/iamsrk" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Last updated on 21 December 2024</p>
+            <p>Last updated on 18 May 2025</p>
           </Col>
         </Row>
       </Container>

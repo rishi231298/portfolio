@@ -39,7 +39,12 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""} expanded={expanded}>
         <Container>
           <Navbar.Brand href="/">
-            <img style={{width:180}} src={logo} alt="Utkarsh" />
+           <div style={{ fontWeight: 'bold', fontSize: '24px', lineHeight: '1.2',color:"white" }}>
+  <span style={{fontSize:"30px"}}>Rishi</span>
+  <br />
+  <span style={{fontSize:"20px",marginTop:"px"}}>portfolio</span>
+</div>
+
           </Navbar.Brand>
           <Navbar.Toggle 
             aria-controls="basic-navbar-nav" 
@@ -73,8 +78,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/utkarsh-singh-parihar-050219249/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.instagram.com/utkarsh.014" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/rishi-kumar-singh-99abab190/" target="_blank"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/rishi231298" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
